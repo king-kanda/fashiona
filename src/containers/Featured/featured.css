@@ -1,0 +1,14 @@
+.feature-root{
+  
+    color: white;
+}
+.f-t h1{
+    font-size: 45px;
+    font-family: 'Belleza', sans-serif;
+    font-weight: bold;
+}
+.slider , .sliding-image {
+
+    width: auto;
+
+}

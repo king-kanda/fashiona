@@ -1,24 +1,41 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { Navbar  ,CTA , Footer } from './components'
+import { Hero , Featured } from './containers'
+import {BrowserRouter as Router , Route ,Switch} from 'react-router-dom'
+// importing page components routing and switching
+import about from './pages/about'
+
+
 
 function App() {
+
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <Router forceRefresh>
+       < div className='app' >
+         <div className='navbar-ection'>
+            <Navbar/>
+         </div>
+         <div className=''>
+           <Switch>
+               {/* where content will go dynamic content on switch and react routers */}
+               <Route path='/' exact>
+                  <Hero />
+                  <Featured />
+               </Route>
+               <Route path='/about' component={about} >
+                  {/* components go in here for the about us page */}
+               </Route>
+               {/* use the above code to create subsequent routees */}
+               
+           </Switch>
+         </div>
+         <CTA />
+         <Footer/>
+      </div>
+   </Router>
   );
 }
 
