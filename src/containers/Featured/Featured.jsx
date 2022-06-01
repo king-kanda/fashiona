@@ -13,13 +13,13 @@ const Featured = () => {
           </div>
           <div className=' flex items-center justify-around slider' id='image-slider'>
               <div className='sliding-image' id="image2">
-                <img src={image2} alt="" srcset="" />
+                <img src={image2} alt=""  />
               </div>
               <div className='sliding-image' id="image3">
-                <img src={image3} alt="" srcset="" />
+                <img src={image3} alt=""  />
               </div>
               <div className='sliding-image' id="image4">
-                <img src={image4} alt="" srcset="" />
+                <img src={image4} alt=""  />
               </div>
           </div>
        </div>

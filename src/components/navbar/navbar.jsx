@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const navbar = () => {
   return (
-    <div classNameName="nav">
+    <div className="nav">
        <div className=''>
           <nav className="container mx-auto flex items-center justify-between flex-wrap bg-white-500 p-4">
                 <div className=" flex items-center flex-shrink-0 text-blue mr-6">
@@ -25,9 +25,9 @@ const navbar = () => {
                       <Link to="/about" className="block mt-4 lg:inline-block lg:mt-0 text-black-200 hover:text-blue mr-4">
                         About Us
                       </Link>
-                      <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-black-200 hover:text-blue mr-4">
-                        Examples
-                      </a>
+                      < Link to ="/counter" className="block mt-4 lg:inline-block lg:mt-0 text-black-200 hover:text-blue mr-4">
+                        states and lifecycle
+                      </Link>
                       <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-black-200 hover:text-blue">
                         Blogs
                       </a>
@@ -35,7 +35,7 @@ const navbar = () => {
                     <div>
               </div>
               <div>
-                  <button class="bg-transparent hover:bg-black text-black-700 font-semibold hover:text-white py-2 px-4 border border-black-500 hover:border-black rounded">
+                  <button className="bg-transparent hover:bg-black text-black-700 font-semibold hover:text-white py-2 px-4 border border-black-500 hover:border-black rounded">
                     Contact Us
                   </button>
               </div>

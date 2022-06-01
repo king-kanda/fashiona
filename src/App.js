@@ -1,10 +1,11 @@
 
 import './App.css';
-import { Navbar  ,CTA , Footer } from './components'
+import { Navbar  ,CTA , Footer} from './components'
 import { Hero , Featured } from './containers'
 import {BrowserRouter as Router , Route ,Switch} from 'react-router-dom'
 // importing page components routing and switching
 import about from './pages/about'
+import counter from './pages/counter'
 
 
 
@@ -26,6 +27,9 @@ function App() {
                   <Featured />
                </Route>
                <Route path='/about' component={about} >
+                  {/* components go in here for the about us page */}
+               </Route>
+               <Route path='/counter' component={counter} >
                   {/* components go in here for the about us page */}
                </Route>
                {/* use the above code to create subsequent routees */}
