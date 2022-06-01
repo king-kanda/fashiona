@@ -37,7 +37,7 @@ function App() {
            </Switch>
          </div>
          <CTA />
-         <Footer/>
+         <Footer name="jane"  tools="" />
       </div>
    </Router>
   );

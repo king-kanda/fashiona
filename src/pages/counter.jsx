@@ -1,12 +1,12 @@
 import React from 'react'
-import { State } from '../components'
+import { States } from '../components'
 
 
 // import states from '.'
 const counter = () => {
   return (
    <div className="">
-       <State/>
+       <States/>
    </div>
   )
 }
