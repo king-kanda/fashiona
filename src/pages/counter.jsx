@@ -6,7 +6,7 @@ import { States } from '../components'
 const counter = () => {
   return (
    <div className="">
-       <States/>
+       <States />
    </div>
   )
 }

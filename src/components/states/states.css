@@ -1,0 +1,16 @@
+.state-holder {
+  padding: 48px;
+}
+
+.timer-holder p {
+  font-size: 25px;
+  color: red;
+  font-weight: bolder;
+}
+
+.timer-holder h1 {
+  font-size: 100px;
+  color: navy;
+  font-weight: bolder;
+}
+/*# sourceMappingURL=states.css.map */

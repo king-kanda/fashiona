@@ -36,7 +36,7 @@ function App() {
                
            </Switch>
          </div>
-         <CTA />
+         {/* <CTA /> */}
          <Footer name="jane"  tools="" />
       </div>
    </Router>
