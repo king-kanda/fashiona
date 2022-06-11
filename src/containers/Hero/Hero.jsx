@@ -26,6 +26,16 @@ const Hero = () => {
                           Don't click me
                     </button>
               </div>
+              <div>
+                {/* this is a non comtrolled react form */}
+                <form>
+                  <input className='p-5 border-green-500' type="text" name="unmaned" id="no-id"  placeholder='none controled from '/>
+                  <button  type='submit' className='p-3 bg-blue-600 text-white'>
+                  page will refresh
+                </button>
+                </form>
+               
+              </div>
             </div>
             {/* second image */}
             <div className='image-cont'>

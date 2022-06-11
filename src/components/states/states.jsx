@@ -43,6 +43,9 @@ class States extends React.Component{
                 </div>
              
           </div>
+
+
+//  these next sections wills be used for list and keys
         )
     }
 }

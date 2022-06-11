@@ -28,6 +28,9 @@ const navbar = () => {
                       < Link to ="/counter" className="block mt-4 lg:inline-block lg:mt-0 text-black-200 hover:text-blue mr-4">
                         states and lifecycle
                       </Link>
+                      < Link to ="/listkey" className="block mt-4 lg:inline-block lg:mt-0 text-black-200 hover:text-blue mr-4">
+                        List And Keys
+                      </Link>
                       <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-black-200 hover:text-blue">
                         Blogs
                       </a>
