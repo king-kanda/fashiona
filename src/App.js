@@ -1,6 +1,6 @@
 
 import './App.css';
-import { Navbar  ,CTA , Footer } from './components'
+import { Navbar  ,CTA , Footer , Hooks } from './components'
 import { Hero , Featured } from './containers'
 import {BrowserRouter as Router , Route ,Switch} from 'react-router-dom'
 // importing page components routing and switching
@@ -28,6 +28,7 @@ function App() {
                   <Hero />
                   <Featured />
                   <Form/>
+                  <Hooks/>
                </Route>
                <Route path='/about' component={about} >
                   {/* components go in here for the about us page */}
